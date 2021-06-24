@@ -1,0 +1,22 @@
+function preload(){
+
+}
+seaImg = loadImage("sea.png");
+shipImg1 = loadAnimation(//ship.jpg);
+
+spriteName.addImage(seaImg);
+
+//code to reset the background
+if(sea.X < 0){
+  sea.X = sea.width/2;
+}
+
+function setup(){
+  createCanvas(400,400);
+  
+}
+
+function draw() {
+  background("blue");
+ 
+}
